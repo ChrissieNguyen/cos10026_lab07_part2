@@ -7,7 +7,6 @@
 	<meta name="description" content="Rohirrim Booking Form">
 	<meta name="keywords" content="MiddleEarth, Tours, Rohan">
 	<meta name="author" content="Grima Wormtongue" />
-	<!-- Place the general style sheet before specific CSS so the specific overides the general formatting-->
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/register.css">
 </head>
@@ -29,7 +28,7 @@
 	</nav>
 
 	<article>
-		<form id="regform" method="post">
+		<form id="regform" method="post" action="processbooking.php" novalidate="novalidate">
 			<fieldset id="person">
 				<legend>Your details:</legend>
 				<p><label for="firstname">Enter your Firstname</label>
